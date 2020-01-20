@@ -20,7 +20,7 @@ def directors_totals(nds)
   #
   # Be sure to return the result at the end!
   #pp directors_database
-  
+
   directors_index = 0
   while directors_index < directors_database.length do
     movies_index = 0
@@ -31,5 +31,5 @@ def directors_totals(nds)
     directors_index += 1
   end
   result
-  
+
 end
